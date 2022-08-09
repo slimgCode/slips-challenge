@@ -1,0 +1,15 @@
+{
+  "name": "boats",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "fastify": "^4.3.0"
+  },
+  "devDependencies": {
+    "tap": "^16.3.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "test": "tap --reporter=base --no-coverage"
+  }
+}
